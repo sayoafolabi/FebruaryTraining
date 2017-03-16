@@ -1,0 +1,38 @@
+Feature: Search Cars
+  In order to view different cars for sale
+  As an Autotrader customer
+  I want the ability to search for a car of my choice
+
+  Scenario Outline: Search for Any cars                       [90m# features/SearchCarWithTable.feature:7[0m
+    [36mGiven [0m[36mI navigate to Autotrader landing[0m
+    [36mWhen [0m[36mI enter my postcode as "<Postcode>"[0m
+    [36mAnd [0m[36mI select a distance of "<Distance>" from the postcode[0m
+    [36mAnd [0m[36mI select "<Make>" as the car make[0m
+    [36mAnd [0m[36mI select "<Model>" as the model[0m
+    [36mAnd [0m[36mI select a minimum price of "<MinPrice>"[0m
+    [36mAnd [0m[36mI select a maximum price of "<MaxPrice>"[0m
+    [36mAnd [0m[36mI click on Search Car button[0m
+    [36mThen [0m[36msearch result is display[0m
+    [36mThen [0m[36mI enter my postcode as "<Postcode>"[0m
+
+    Scenarios: 
+
+  Scenario Outline: Search for Any cars                            [90m# features/SearchCarWithTable.feature:21[0m
+    [32mGiven [0m[32mI navigate to Autotrader landing[0m                         [90m# SearchForCarsSteps.i_navigate_to_Autotrader_landing()[0m
+    [32mWhen [0m[32mI enter my postcode as "[0m[32m[1mOL9 8LE[0m[32m"[0m                          [90m# ParameterizedSteps.i_enter_my_postcode_as(String)[0m
+    [32mAnd [0m[32mI select a distance of "[0m[32m[1mWithin 35 miles[0m[32m" from the postcode[0m [90m# SearchForCarsSteps.i_select_a_distance_of_from_the_postcode(String)[0m
+    [32mAnd [0m[32mI select "[0m[32m[1maudi[0m[32m" as the car make[0m                            [90m# SearchForCarsSteps.i_select_as_the_car_make(String)[0m
+    [32mAnd [0m[32mI select "[0m[32m[1mQ7[0m[32m" as the model[0m                                 [90m# SearchForCarsSteps.i_select_as_the_model(String)[0m
+    [32mAnd [0m[32mI select a minimum price of "[0m[32m[1m20000[0m[32m"[0m                        [90m# SearchForCarsSteps.i_select_a_minimum_price_of(String)[0m
+    [32mAnd [0m[32mI select a maximum price of "[0m[32m[1m35000[0m[32m"[0m                        [90m# SearchForCarsSteps.i_select_a_maximum_price_of(String)[0m
+    [32mAnd [0m[32mI click on Search Car button[0m                               [90m# SearchForCarsSteps.i_click_on_Search_Car_button()[0m
+    [32mThen [0m[32msearch result is display[0m                                  [90m# SearchForCarsSteps.search_result_is_display()[0m
+    [32mThen [0m[32mI enter my postcode as "[0m[32m[1mOL9 8LE[0m[32m"[0m                          [90m# ParameterizedSteps.i_enter_my_postcode_as(String)[0m
+Feature: Search Any Cars
+  In order to view different cars for sale
+  As an Autotrader customer
+  I want the ability to search for a car of my choice
+Feature: Search Audi Cars
+  In order to view different cars for sale
+  As an Autotrader customer
+  I want the ability to search for a car of my choice

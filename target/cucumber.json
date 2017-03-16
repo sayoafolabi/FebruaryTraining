@@ -1,0 +1,243 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8982678135,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutotraderHooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Search for Any cars",
+        "description": "",
+        "id": "search-cars;search-for-any-cars;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5472918288,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutotraderHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4604273153,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to Autotrader landing",
+            "match": {
+              "location": "SearchForCarsSteps.i_navigate_to_Autotrader_landing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 413386014,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my postcode as \"OL9 8LE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OL9 8LE",
+                  "offset": 24
+                }
+              ],
+              "location": "ParameterizedSteps.i_enter_my_postcode_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 647336849,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select a distance of \"Within 35 miles\" from the postcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Within 35 miles",
+                  "offset": 24
+                }
+              ],
+              "location": "SearchForCarsSteps.i_select_a_distance_of_from_the_postcode(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 439059733,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select \"audi\" as the car make",
+            "match": {
+              "arguments": [
+                {
+                  "val": "audi",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchForCarsSteps.i_select_as_the_car_make(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214139,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select \"Q7\" as the model",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Q7",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchForCarsSteps.i_select_as_the_model(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95173,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select a minimum price of \"20000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20000",
+                  "offset": 29
+                }
+              ],
+              "location": "SearchForCarsSteps.i_select_a_minimum_price_of(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113368,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select a maximum price of \"35000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35000",
+                  "offset": 29
+                }
+              ],
+              "location": "SearchForCarsSteps.i_select_a_maximum_price_of(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112901,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Search Car button",
+            "match": {
+              "location": "SearchForCarsSteps.i_click_on_Search_Car_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51319,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "search result is display",
+            "match": {
+              "location": "SearchForCarsSteps.search_result_is_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 484991668,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter my postcode as \"OL9 8LE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OL9 8LE",
+                  "offset": 24
+                }
+              ],
+              "location": "ParameterizedSteps.i_enter_my_postcode_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Cars",
+    "description": "In order to view different cars for sale\r\nAs an Autotrader customer\r\nI want the ability to search for a car of my choice",
+    "id": "search-cars",
+    "keyword": "Feature",
+    "uri": "features/SearchCarWithTable.feature"
+  },
+  {
+    "line": 1,
+    "name": "Search Any Cars",
+    "description": "In order to view different cars for sale\r\nAs an Autotrader customer\r\nI want the ability to search for a car of my choice",
+    "id": "search-any-cars",
+    "keyword": "Feature",
+    "uri": "features/SearchForAnyCar.feature"
+  },
+  {
+    "line": 1,
+    "name": "Search Audi Cars",
+    "description": "In order to view different cars for sale\r\nAs an Autotrader customer\r\nI want the ability to search for a car of my choice",
+    "id": "search-audi-cars",
+    "keyword": "Feature",
+    "uri": "features/SearchForAudiCar.feature"
+  }
+]

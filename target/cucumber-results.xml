@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.045231">
+<testcase classname="Search Cars" name="Search for Any cars" time="21.045231">
+<system-out><![CDATA[Given I navigate to Autotrader landing......................................passed
+When I enter my postcode as "OL9 8LE".......................................passed
+And I select a distance of "Within 35 miles" from the postcode..............passed
+And I select "audi" as the car make.........................................passed
+And I select "Q7" as the model..............................................passed
+And I select a minimum price of "20000".....................................passed
+And I select a maximum price of "35000".....................................passed
+And I click on Search Car button............................................passed
+Then search result is display...............................................passed
+Then I enter my postcode as "OL9 8LE".......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

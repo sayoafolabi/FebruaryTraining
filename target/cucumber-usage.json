@@ -1,0 +1,168 @@
+[
+  {
+    "source": "^I select a maximum price of \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select a maximum price of \"35000\"",
+        "aggregatedDurations": {
+          "average": 0.000113368,
+          "median": 0.000113368
+        },
+        "durations": [
+          {
+            "duration": 0.000113368,
+            "location": "features/SearchCarWithTable.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select \"([^\"]*)\" as the model$",
+    "steps": [
+      {
+        "name": "I select \"Q7\" as the model",
+        "aggregatedDurations": {
+          "average": 0.000214139,
+          "median": 0.000214139
+        },
+        "durations": [
+          {
+            "duration": 0.000214139,
+            "location": "features/SearchCarWithTable.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^search result is display$",
+    "steps": [
+      {
+        "name": "search result is display",
+        "aggregatedDurations": {
+          "average": 0.000051319,
+          "median": 0.000051319
+        },
+        "durations": [
+          {
+            "duration": 0.000051319,
+            "location": "features/SearchCarWithTable.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select a minimum price of \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select a minimum price of \"20000\"",
+        "aggregatedDurations": {
+          "average": 0.000095173,
+          "median": 0.000095173
+        },
+        "durations": [
+          {
+            "duration": 0.000095173,
+            "location": "features/SearchCarWithTable.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select a distance of \"([^\"]*)\" from the postcode$",
+    "steps": [
+      {
+        "name": "I select a distance of \"Within 35 miles\" from the postcode",
+        "aggregatedDurations": {
+          "average": 0.647336849,
+          "median": 0.647336849
+        },
+        "durations": [
+          {
+            "duration": 0.647336849,
+            "location": "features/SearchCarWithTable.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I navigate to Autotrader landing$",
+    "steps": [
+      {
+        "name": "I navigate to Autotrader landing",
+        "aggregatedDurations": {
+          "average": 4.604273153,
+          "median": 4.604273153
+        },
+        "durations": [
+          {
+            "duration": 4.604273153,
+            "location": "features/SearchCarWithTable.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select \"([^\"]*)\" as the car make$",
+    "steps": [
+      {
+        "name": "I select \"audi\" as the car make",
+        "aggregatedDurations": {
+          "average": 0.439059733,
+          "median": 0.439059733
+        },
+        "durations": [
+          {
+            "duration": 0.439059733,
+            "location": "features/SearchCarWithTable.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter my postcode as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter my postcode as \"OL9 8LE\"",
+        "aggregatedDurations": {
+          "average": 0.449188841,
+          "median": 0.449188841
+        },
+        "durations": [
+          {
+            "duration": 0.413386014,
+            "location": "features/SearchCarWithTable.feature:9"
+          },
+          {
+            "duration": 0.484991668,
+            "location": "features/SearchCarWithTable.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Search Car button$",
+    "steps": [
+      {
+        "name": "I click on Search Car button",
+        "aggregatedDurations": {
+          "average": 0.000112901,
+          "median": 0.000112901
+        },
+        "durations": [
+          {
+            "duration": 0.000112901,
+            "location": "features/SearchCarWithTable.feature:15"
+          }
+        ]
+      }
+    ]
+  }
+]
